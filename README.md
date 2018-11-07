@@ -46,7 +46,7 @@ Within Hue Impala Query Editor:
 2. Using the newly created database, use Impala's `CREATE TABLE` statement to define a new Kudu table (by specifying the table as `STORED AS KUDU`). This exercise is to create a "tall" table, containing columns named "millis" (type: BIGINT), "id" (type: STRING), "metric" (type: STRING), and "value" (type: STRING). The primary key for this table should be compound, comprised of "millis", "id", and "metric". It should be partitioned by a hash of "id" and "metric" values. The number of partitions should be a small multiple of the number of Kudu Tablet Servers.
 3. Verify proper design of the Kudu schema using Impala's `DESCRIBE` statement.
 
-![alt tag](http://raw.githubusercontent.com/jcoopere/IoT-Workshop/blob/master/screenshots/describeTable.png)
+![alt tag](screenshots/describeTable.png)
 
 Also verify successful creation of the Kudu table by navigating to the Kudu Master web interface and clicking on "Tables". Note that the "Table Name" here should be of the form "impala::<your_database>.<your_table>", since the table was created using Impala.
 

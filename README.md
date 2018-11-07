@@ -67,7 +67,7 @@ $ sudo yum install sbt
 
 To build the application, with sbt installed navigate to the `streaming/` subdirectory and execute the command `$ sbt clean assembly`. 
 
-Successful compilation should yield an uber jar (found in `streaming/target/scala-2.11/iiot-demo-assembly-1.0.jar`) which can be submitted to the Cloudera cluster from a gateway node as follows (relative to the `streaming/` subdirectory, and replacing with your hosts and names):
+Successful compilation should yield an uber jar (found in `streaming/target/scala-2.11/iiot-demo-assembly-1.0.jar`, note that if using Cloudera 5 / Spark 1.6 version the path will be `streaming/target/scala-2.10/iiot-demo-assembly-1.0.jar`) which can be submitted to the Cloudera cluster from a gateway node as follows (relative to the `streaming/` subdirectory, and replacing with your hosts and names):
 ```
 $ spark-submit \
   --master yarn \

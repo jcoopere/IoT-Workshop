@@ -126,17 +126,17 @@ Once Kura has started, access the console in a browser window by navigating to `
 Once authenticated, follow the steps in the following screenshots to configure Kura to publish to the Eclipse-managed public MQTT broker and install the "Heater Demo" application to begin sending sample data:
 
 ##### Configure Kura MqttDataTransport
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/kura1.png)
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/kura2.png)
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/kura3.png)
+![alt tag](screenshots/kura1.png)
+![alt tag](screenshots/kura2.png)
+![alt tag](screenshots/kura3.png)
 
 ##### Install "Heater Demo" on Kura
 **Note:** This will require opening a new browser window and navigating to [Eclipse Marketplace "Heater Demo"](https://marketplace.eclipse.org/node/3452467)
 
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/heater-1.png)
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/heater-2.png)
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/heater-3.png)
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/heater-4.png)
+![alt tag](screenshots/heater-1.png)
+![alt tag](screenshots/heater-2.png)
+![alt tag](screenshots/heater-3.png)
+![alt tag](screenshots/heater-4.png)
 
 #### Hands-On Exercise 4.1.2: Build and Deploy the Java Protocol Bridge Application
 For this workshop, a simple, standalone Java application can be used in order to simulate Everyware Cloud protocol bridging and message routing capabilities.
@@ -178,11 +178,11 @@ Within Hue Impala Query Editor, develop queries which accomplish the following:
 2. Display all distinct metrics names from a table
 3. Display the 100 most recent rows from a table, displaying time as a human-readable string
 4. Display most recent value for each metric in a table
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/mostRecentMetrics.png)
+![alt tag](screenshots/mostRecentMetrics.png)
 5. Display daily maximum, minimum and average values, as well as daily total record count, for metric "temperatureInternal"
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/summaryByDay.png)
+![alt tag](screenshots/summaryByDay.png)
 6. Use Hue to create a graph of the 100 most recent values for metric "temperatureInternal" (using millis on the x-axis and "temperatureInternal" on the y-axis)
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/internalTemperatureGraph.png)
+![alt tag](screenshots/internalTemperatureGraph.png)
 7. Display the 100 most recent rows, with distinct metrics 'pivoted' into their own columns.
-![alt tag](http://github.com/jcoopere/IoT-Workshop/blob/master/screenshots/tallToWideTableExample.png)
+![alt tag](screenshots/tallToWideTableExample.png)
 
